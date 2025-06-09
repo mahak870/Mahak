@@ -3,7 +3,7 @@ public class GuessingTheNumber {
   
     public static void guessingNumberGame(){
     Scanner sc=new Scanner(System.in);
-    int number=1+(int)(Math.random());
+    int number=1+(int)(Math.random()*100);
     int k=5;
     System.out.println("A number is chosen between 1 to 100");
     System.out.println("You have" + k + " attempts to guess the correct number.");
